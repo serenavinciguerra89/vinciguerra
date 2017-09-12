@@ -1,18 +1,18 @@
 
 body {
     background-color: #ffffff;
-    background-image:  url(imag_bkg.003.png);
+    background-image:  url(mio7.001.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     /*background-position: center center;              /* optional, center the image */ */
 }
 
 
  div.scrollmenu {
-    background-color: #8c8cd9;
+    background-color: #000000;
     overflow: auto;
     white-space: nowrap;
     display: flex;
@@ -28,7 +28,7 @@ div.scrollmenu a {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
-    font-family: Helvetica;
+    font-family: Cosmic Love;
     padding: 24px;
     text-decoration: none;
     border-radius: 5pt;
