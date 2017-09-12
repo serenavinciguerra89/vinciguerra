@@ -17,7 +17,7 @@ body {
     white-space: nowrap;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     border-radius: 10pt;
     opacity: 0.6;
 }
