@@ -1,11 +1,11 @@
 
 body {
     background-color: #ffffff;
-    background-image:  url(mio7_2.007.jpg);
+    background-image:  url(Im_bkg_big.001.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 512px 384px;
+    background-size: auto;
     background-repeat: no-repeat;
     /*background-position: center center;              /* optional, center the image */ */
 }
