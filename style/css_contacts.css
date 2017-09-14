@@ -1,7 +1,7 @@
 
 body {
-    background-color: #ffffff;
-    background-image:  url(Im_bkg_big.002.jpg);
+    background-color: #000000;
+    background-image:  url(../BKGimages/Im_bkg_big.5.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,8 +9,13 @@ body {
     background-repeat: no-repeat;
     /*background-position: center center;              /* optional, center the image */ */
 }
-
-
+h1{
+  color: #ffffff;
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Cosmic Love;
+}
 /*
 .cd-stretchy-nav {
   position: fixed;
@@ -19,7 +24,7 @@ body {
   right: 5%;
 }
 .cd-stretchy-nav .stretchy-nav-bg {
-  /* this is the stretching navigation background */
+  
   position: absolute;
   z-index: 1;
   top: 0;
