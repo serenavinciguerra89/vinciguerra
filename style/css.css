@@ -10,6 +10,12 @@ body {
     /*background-position: center center;              /* optional, center the image */ */
 }
 
+@font-face {
+    font-family: 'always_forever';
+    src: url('fonts/always_forever.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
  div.scrollmenu {
     background-color: #000000;
@@ -30,7 +36,7 @@ div.scrollmenu a {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    font-family: Cosmic Love;
+    font-family: always_forever;
     padding: 10px, 0;
     margin: 5%;
     text-decoration: none;
@@ -51,6 +57,8 @@ h1 {
     font-weight: bold;
     font-family: Georgia;
 }
+
+
 /*
 .cd-stretchy-nav {
   position: fixed;
