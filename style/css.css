@@ -15,6 +15,7 @@ body {
     background-color: #000000;
     overflow: auto;
     white-space: nowrap;
+    justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,15 +25,17 @@ body {
 
 
 div.scrollmenu a {
-    display: inline-block;
+    /*display: inline-block;*/
     color: white;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     font-family: Cosmic Love;
-    padding: 30px;
+    padding: 10px, 0;
+    margin: 5%;
     text-decoration: none;
     border-radius: 5pt;
+    clear: both;
     
 }
 
