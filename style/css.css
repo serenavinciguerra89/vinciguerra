@@ -1,7 +1,7 @@
 
 body {
     background-color: #ffffff;
-    background-image:  url('../BKGimages/Im_bkg_big.001.jpg');
+    /*background-image:  url('../BKGimages/Im_bkg_big.001.jpg');*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -10,9 +10,29 @@ body {
     /*background-position: center center;              /* optional, center the image */ */
 }
 
+body.main{
+  background-color:  #ffffff;
+  background-image:  url('../BKGimages/Im_bkg_big.001.jpg');
+}
+
+body.AboutMe {
+    background-color: #ffffff;
+    background-image:  url('../BKGimages/Im_bkg_big_3.001.jpg');
+    }
+
+body.CV{
+    background-color: #ffffff;
+    background-image:  url('../BKGimages/Im_bkg_big.2.jpg');
+    }
+
+body.contacts{
+    background-color: #000000;
+    background-image:  url('../BKGimages/Im_bkg_big.5.jpg');
+    }
+
 @font-face {
-    font-family: 'always_forever';
-    src: url('fonts/always_forever.ttf');
+    font-family: 'BTR';
+    src: url('fonts/BTR.ttf')  format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -34,10 +54,10 @@ div.scrollmenu a {
     /*display: inline-block;*/
     color: white;
     font-size: 30px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     text-align: center;
-    font-family: always_forever;
-    padding: 10px, 0;
+    font-family: BTR;
+    padding: 50px, 0;
     margin: 5%;
     text-decoration: none;
     border-radius: 5pt;
@@ -55,9 +75,52 @@ h1 {
     color: #330066
     font-size: 20px;
     font-weight: bold;
-    font-family: Georgia;
+    font-family: BTR;
 }
+div.Homelink{
+  font-size: 20px;
+  font-family: Cosmic Love;
+}
+div.Homelink a {
+  color: #ffffff;
+  background-color: #000000;/*#ffffff;*/
+  padding: 5px 10px;/*10px 0px 5px 0px;*/
+  margin: 10px;
+  opacity: 0.8;
+  border-radius: 5pt;
+  border-color: #000000;
+  border-width: 2px;
+  float: left;
+  /*clear: both;*/
+}
+div.Homelink a.imageBottom {
+  padding: 5px 0px;/
+  }
 
+div.Homelink a:hover{
+  background-color: #ffffff;
+  color: #8c8cd9;
+}
+/*<!-- hover-->*/
+div.image{
+  background-image:url(data:image/png;base64,iVBORwA<MoreBase64SringHere>); 
+}
+/* backgrounds */
+.day { background-image: url('../BKGimages/Im_bkg_big.2.jpg'); 
+background-color: #ffffff;
+}
+.sunset { background-image: url('../BKGimages/Im_bkg_big_3.001.jpgg'); 
+background-color: #ffffff;
+}
+.sunrise { background-image: url('../BKGimages/Im_bkg_big.001.jpg'); 
+background-color: #ffffff;
+}
+.evening { background-image: url('../BKGimages/Im_bkg_big.004.jpg'); 
+background-color: #000000;
+}
+.night { background-image: url('../BKGimages/Im_bkg_big.5.jpg'); 
+background-color: #000000;
+}
 
 /*
 .cd-stretchy-nav {

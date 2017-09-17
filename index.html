@@ -6,7 +6,95 @@
     <link rel="stylesheet" href="style/css.css" type="text/css">
   </head>
 
+<body class="main">
+	<!--
+ <div><img id="image" src="../BKGimages/Im_bkg_big.001.jpg" alt="pictures" />
+ </div>
+ src="script.js"> 
+-->
+ <script type="text/javascript" >
+ 	//var prova = "Ciao ";
+ 	//document.write(prova + "<br>");
+ 	//document.write(prova+prova + "<br>");
+ 	//document.write(prova+prova+prova + "<br>");
+ 	/*var a = 0;
+ 	alert(a);
+ 	System.out.println("Count is: " + a);
+ 	*/
+  	/*String b= "ciao";
+ 	alert(b);*/
+ 	/*
+ 	String [] toppings = new String[5];
+ 	toppings[1] = "sunrise";
+    toppings[0] = "day";
+    toppings[2] = "sunset";
+    toppings[3] = "evening";
+    toppings[4] = "night";
+ 	
+ 	public class JavaStringArrayTests{
+    	private String[] toppings = new String[5];
 
+    	// more ...
+	}
+	private void populateStringArray()
+	{
+    	toppings[1] = "sunrise";
+    	toppings[0] = "day";
+    	toppings[2] = "sunset";
+    	toppings[3] = "evening";
+    	toppings[4] = "night";
+
+    	// ...
+    }
+    */
+    /*
+ 	for (int x = 0; x<5; x = x+1) {
+ 		alert(x);
+ 		if (x ==1){
+ 			document.body.className = "day";
+ 		}
+ 		else if (x ==2){
+ 			document.body.className = "sunset";
+ 		}
+ 		else if (x ==3){
+ 			document.body.className = "evening";
+ 		}
+ 		else if (x ==4){
+ 			document.body.className = "night";
+ 		}
+ 		else{
+ 			document.body.className = "sunrise";
+ 		}
+ 		TimeUnit.SECONDS.sleep(5);
+	}
+	*/
+	
+ 	var d = new Date();
+	var n = d.getHours();
+	if (n >= 21 || n < 5){
+	   //alert("night");
+	  // If time is between 4PM – 7PM sunset theme to ‘body’
+	  document.body.className = "night";
+	}
+ 	else if (n > 18 && n < 21){
+ 	  //alert("evening");
+ 	  //System.out.print(n);
+	  // If time is after 7PM or before 6AM, apply night theme to ‘body’
+	  document.body.className = "evening";
+	}
+	else if (n > 5 && n < 8){
+	  //alert("sunrise");
+	  // If time is between 4PM – 7PM sunset theme to ‘body’
+	  document.body.className = "sunrise";
+	}
+	else if (n > 16 && n < 18)
+	  // If time is between 4PM – 7PM sunset theme to ‘body’
+	  document.body.className = "sunset";
+	else
+	  // Else use ‘day’ theme
+	  document.body.className = "day";
+	  
+ </script>
 
  <div class="scrollmenu">
   <a href="./index.html">Home</a>
@@ -26,11 +114,12 @@
 	<ul>
 		<li><a href="#0" class="active"><span>Home</span></a></li>
 		<li><a href="#0"><span>Portfolio</span></a></li>
-		<!-- other list items here -->
+		
 	</ul>
  
 	<span aria-hidden="true" class="stretchy-nav-bg"></span>
 </nav>
+-->
 </body>
 
 </html>
