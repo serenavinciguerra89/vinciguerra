@@ -82,6 +82,7 @@ div.Homelink{
   font-family: Cosmic Love;
 }
 div.Homelink a {
+  text-align: center;
   color: #ffffff;
   background-color: #000000;/*#ffffff;*/
   padding: 5px 10px;/*10px 0px 5px 0px;*/
@@ -98,9 +99,10 @@ div.Homelink a.imageBottom {
   }
 
 div.Homelink a:hover{
-  background-color: #ffffff;
+  background-color:#ffffff;
   color: #8c8cd9;
 }
+
 /*<!-- hover-->*/
 div.image{
   background-image:url(data:image/png;base64,iVBORwA<MoreBase64SringHere>); 
@@ -109,7 +111,7 @@ div.image{
 .day { background-image: url('../BKGimages/Im_bkg_big.2.jpg'); 
 background-color: #ffffff;
 }
-.sunset { background-image: url('../BKGimages/Im_bkg_big_3.001.jpgg'); 
+.sunset { background-image: url('../BKGimages/Im_bkg_big_3.001.jpg'); 
 background-color: #ffffff;
 }
 .sunrise { background-image: url('../BKGimages/Im_bkg_big.001.jpg'); 
